@@ -35,7 +35,7 @@ app.add_middleware(
 # (e.g. Supabase) for persistent production storage.
 DB_PATH = os.environ.get("DB_PATH", "/tmp/sethdesk.db")
 
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyCVoF74hfOFWnKwRvsJAddk-Qh46-kPsdw")
 
 # ─── DATABASE HELPERS ────────────────────────────────────────
 def get_db() -> sqlite3.Connection:
